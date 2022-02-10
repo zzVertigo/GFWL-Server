@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-xbox-com:user-account-data">
+    <def>
+        <AccountInfo>
+            <XboxPuid>1</XboxPuid>
+            <Tag>zzVertigo</Tag>
+            <CountryCode>CA</CountryCode>
+            <CultureId>1033</CultureId>
+            <ParentallyControlled>false</ParentallyControlled>
+            <Privileges>
+                244
+            </Privileges>
+        </AccountInfo>
+    </def>
+</root>

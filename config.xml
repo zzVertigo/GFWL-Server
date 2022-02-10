@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><Environment name="prod" liveId="Production" clientVersion="3.04.0054.0" showFullGames="True">
+  <Authentication>
+    <AuthSetting name="gfwl" serviceName="live.xbox.com" policy="MBI" />
+    <AuthSetting name="WgxSsl" serviceName="services.gamesforwindows.com" policy="MBI_SSL" />
+    <AuthSetting name="Lsp" serviceName="kdc.xboxlive.com" policy="MBI_SSL" />
+    <AuthSetting name="Transfer" serviceName="" policy="HBI" />
+  </Authentication>
+  <UrlSettings>
+    <UrlSetting name="GetUserAuth" url="http://10.0.0.215/authorization" authKey="Lsp" />
+    <UrlSetting name="Marketplace" url="https://live.xbox.com/en-US/Account/GfwlClientHome" authKey="gfwl" />
+    <UrlSetting name="OfferDetails" url="https://live.xbox.com/en-US/Account/GfwlClientHome" authKey="gfwl" />
+    <UrlSetting name="GameDetails" url="https://live.xbox.com/en-US/Account/GfwlClientHome" authKey="gfwl" />
+    <UrlSetting name="WgxService" url="https://10.0.0.215/marketplace" authKey="WgxSsl" />
+    <UrlSetting name="Tiles" url="http://tiles.xbox.com" authKey="" />
+    <UrlSetting name="AccountCreate" url="https://live.xbox.com/en-US/Flows/BeginFlow.ashx?workflow=AccountCreation&amp;returnUrl=" authKey="" />
+    <UrlSetting name="XboxComAcctMgmt" url="https://live.xbox.com/en-US/Profile" authKey="Transfer" transfer="True" params="id=MSM" />
+    <UrlSetting name="XboxComForceNameChg" url="https://account.xbox.com:443/en-US/" authKey="Transfer" transfer="True" params="id=MSM" />
+    <UrlSetting name="ForgotPassword" url="http://go.microsoft.com/fwlink/?LinkID=128393" authKey="" />
+    <UrlSetting name="AuthTransfer" url="https://account.xbox.com/passport/setCookies.ashx?rru={0}&amp;lcw=true" authKey="" />
+    <UrlSetting name="Logout" url="https://login.live.com/logout.srf?ct=1644454371&amp;rver=6.5.6509.0&amp;lc=1033&amp;id=292543&amp;ru=http:%2F%2Faccount.xbox.com%2Fen-US%2Fdefault.aspx&amp;lru=https%3a%2f%2flive.xbox.com%2fen-US%2fAccount%2fGfwlClientHome" authKey="" />
+  </UrlSettings>
+</Environment>
